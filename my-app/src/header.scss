@@ -1,10 +1,29 @@
 header{
     display: flex;
     align-items: center;
-    background-color: red;
-    height: 10vh;
+    justify-content: center;
+    height:auto;
+    background-color: rgb(28, 33, 34);
+    flex-direction: row;
+
     img{
-        height: 15px;
-        width: 8vw;
+      
+        height: 10vh;
+        margin: 20px;
+        
+    }
+    img:hover{
+        transition: 0.5s;
+        height: 11vh;
+    }
+
+    li{
+        list-style: none;
+        a{
+            
+            text-decoration: none;
+            color: black;
+        }
+        
     }
 }

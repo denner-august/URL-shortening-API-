@@ -5,12 +5,34 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: red;
-  height: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  background-color: #1c2122;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 header img {
-  height: 15px;
-  width: 8vw;
+  height: 10vh;
+  margin: 20px;
+}
+
+header img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 11vh;
+}
+
+header li {
+  list-style: none;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=header.css.map */

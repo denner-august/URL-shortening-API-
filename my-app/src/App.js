@@ -1,10 +1,12 @@
 import React from "react"
 import Header from "./Header"
+import Main from "./main"
 
 function App() {
   return (
     <div>
       <Header/>
+      <Main/>
     </div>
   );
 }
